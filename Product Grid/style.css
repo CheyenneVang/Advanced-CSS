@@ -1,0 +1,27 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(2, 300px);
+    width: 85%;
+}
+
+.product {
+    padding: 10px;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+}
+
+h2, p {
+    font-size: 10px;
+    padding: 1px;
+}
+
+
+/*.product {
+    padding: 5px;
+    border: 1px solid pink;
+    height: 200px;
+}*/
